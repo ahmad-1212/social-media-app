@@ -8,7 +8,7 @@ const Login = () => {
     <div
       className={`${
         screen < 400 ? "w-[90%]" : "w-[380px]"
-      } sm:w-[400px] md:w-[500px] mx-auto bg-white dark:bg-gray-900 shadow-md my-[60px] py-10 px-[2rem] md:px-[3rem] pt-6 rounded-md`}
+      } sm:w-[400px] md:w-[500px] mx-auto bg-white dark:bg-gray-900 shadow-md my-[100px] md:my-[60px] py-10 px-[2rem] md:px-[3rem] pt-6 rounded-md`}
     >
       <div className="flex justify-center mb-3">
         <Avatar src={"/Logo.png"} width="3rem" height="3rem" />

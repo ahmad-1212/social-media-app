@@ -9,7 +9,8 @@ const ProtectedRoute = ({ children, authPage = false }) => {
   const { isAuthenticated, isLoading } = useCurrentUser();
   useEffect(() => {
     // If not authenticated and user is not loading navigate to login page
-    if (!isAuthenticated && !isLoading) navigate("/login");
+    console.log(isLoading);
+    if (!isAuthenticated && !isLoading && !authPage) navigate("/login");
 
     // If authenticated and not loading and AuthPage navigate to Home page
     if (isAuthenticated && !isLoading && authPage) navigate("/home");
@@ -19,7 +20,8 @@ const ProtectedRoute = ({ children, authPage = false }) => {
 
   if (isLoading) return <FullPageLoading />;
 
-  return children;
+  if (isAuthenticated && !authPage) return children;
+  if (!isAuthenticated && authPage) return children;
 };
 
 export default ProtectedRoute;
