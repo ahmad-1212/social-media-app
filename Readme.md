@@ -10,17 +10,17 @@ SocialMediaApp is a full-stack social media application built using the MERN (Mo
 
 ### Frontend
 
-&bull; **React Query**
-&bull; **axios**
-&bull; **react-error-boundary**
-&bull; **react-hook-form**
-&bull; **react-lazy-load-image-component**
-&bull; **react-toastify**
+&bull; **React Query** <br/>
+&bull; **axios** <br/>
+&bull; **react-error-boundary** <br/>
+&bull; **react-hook-form** <br/>
+&bull; **react-lazy-load-image-component** <br/>
+&bull; **react-toastify** <br/>
 
 ### Backend
 
-&bull; **Node**
-&bull; **Mongodb**
-&bull; **Mongoose**
-&bull; **JWT**
+&bull; **Node** <br/>
+&bull; **Mongodb** <br/>
+&bull; **Mongoose** <br/>
+&bull; **JWT** <br/>
 &bull; **Cloudinary**
